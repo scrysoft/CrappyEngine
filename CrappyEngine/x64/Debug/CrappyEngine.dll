@@ -1,0 +1,73 @@
+  Application.cpp
+  formatter-bench.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\bench\formatter-bench.cpp(6,10): fatal  error C1083: Cannot open include file: 'benchmark/benchmark.h': No such file or directory
+  latency.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\bench\latency.cpp(10,10): fatal  error C1083: Cannot open include file: 'benchmark/benchmark.h': No such file or directory
+  example.cpp
+  async.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\async.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  bundled_fmtlib_format.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\bundled_fmtlib_format.cpp(6,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  cfg.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\cfg.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  color_sinks.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\color_sinks.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  file_sinks.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\file_sinks.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  spdlog.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\spdlog.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  stdout_sinks.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\src\stdout_sinks.cpp(5,1): fatal  error C1189: #error:  Please define SPDLOG_COMPILED_LIB to compile this file.
+  main.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\main.cpp(6,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_async.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_backtrace.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_bin_to_hex.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_cfg.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_circular_q.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_create_dir.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_custom_callbacks.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_daily_logger.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  test_dup_filter.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_errors.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_eventlog.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_file_helper.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_file_logging.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_fmt_helper.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_macros.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_misc.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_mpmc_q.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_pattern_formatter.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_registry.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_stdout_api.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_stopwatch.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_systemd.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  test_time_point.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  utils.cpp
+C:\Users\elmin\source\repos\scrysoft\CrappyEngine\CrappyEngine\vendor\spdlog\tests\includes.h(7,10): fatal  error C1083: Cannot open include file: 'catch2/catch_all.hpp': No such file or directory
+  Generating Code...
