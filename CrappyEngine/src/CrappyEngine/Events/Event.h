@@ -2,9 +2,6 @@
 
 #include "CrappyEngine/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace CrappyEngine {
 	enum class EventType {
 		None = 0,

@@ -18,6 +18,9 @@ project "CrappyEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "cepch.h"
+	pchsource "CrappyEngine/src/cepch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

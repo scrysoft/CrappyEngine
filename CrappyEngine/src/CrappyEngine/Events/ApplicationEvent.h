@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace CrappyEngine {
 	class CRAPPYENGINE_API WindowResizeEvent : public Event {
 	public:
