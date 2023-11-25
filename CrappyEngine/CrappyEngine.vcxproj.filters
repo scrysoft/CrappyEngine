@@ -4,6 +4,9 @@
     <Filter Include="CrappyEngine">
       <UniqueIdentifier>{8AF61772-7659-A716-1FDF-DFCC0B217399}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CrappyEngine\Events">
+      <UniqueIdentifier>{2EA3B9BB-9A04-97C9-2372-DD7B8FD2CD88}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\CrappyEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\CrappyEngine\EntryPoint.h">
       <Filter>CrappyEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CrappyEngine\Events\ApplicationEvent.h">
+      <Filter>CrappyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CrappyEngine\Events\Event.h">
+      <Filter>CrappyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CrappyEngine\Events\KeyEvent.h">
+      <Filter>CrappyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CrappyEngine\Events\MouseEvent.h">
+      <Filter>CrappyEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\CrappyEngine\Log.h">
       <Filter>CrappyEngine</Filter>
