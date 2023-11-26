@@ -7,6 +7,12 @@
     <Filter Include="CrappyEngine\Events">
       <UniqueIdentifier>{2EA3B9BB-9A04-97C9-2372-DD7B8FD2CD88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CrappyEngine\Platform">
+      <UniqueIdentifier>{e55ad836-1bc2-45e7-a359-a82e3ef8f74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrappyEngine\Platform\Windows">
+      <UniqueIdentifier>{96a70c12-c2ea-4405-9e51-ed1d6b654d5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\CrappyEngine.h" />
@@ -35,6 +41,10 @@
       <Filter>CrappyEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\cepch.h" />
+    <ClInclude Include="Window.h">
+      <Filter>CrappyEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CrappyEngine\Application.cpp">
@@ -44,5 +54,6 @@
       <Filter>CrappyEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\cepch.cpp" />
+    <ClCompile Include="WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
