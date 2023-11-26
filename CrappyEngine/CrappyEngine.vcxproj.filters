@@ -44,7 +44,9 @@
     <ClInclude Include="Window.h">
       <Filter>CrappyEngine</Filter>
     </ClInclude>
-    <ClInclude Include="WindowsWindow.h" />
+    <ClInclude Include="WindowsWindow.h">
+      <Filter>CrappyEngine\Platform\Windows</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CrappyEngine\Application.cpp">
@@ -54,6 +56,8 @@
       <Filter>CrappyEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\cepch.cpp" />
-    <ClCompile Include="WindowsWindow.cpp" />
+    <ClCompile Include="WindowsWindow.cpp">
+      <Filter>CrappyEngine\Platform\Windows</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
