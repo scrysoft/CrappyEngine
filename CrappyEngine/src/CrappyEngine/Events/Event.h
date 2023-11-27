@@ -5,7 +5,7 @@
 namespace CrappyEngine {
 	enum class EventType {
 		None = 0,
-		WindowCLose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
+		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
 		AppTick, AppUpdate, AppRender,
 		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
@@ -21,7 +21,7 @@ namespace CrappyEngine {
 	};
 
 #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() {return EventType::##type;}\
-								virtual EventType() const override {return GetStaticType();}\
+								virtual EventType GetEventType() const override {return GetStaticType();}\
 								virtual const char* GetName() const override {return #type;}
 
 #define EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override {return category;}
@@ -46,13 +46,12 @@ namespace CrappyEngine {
 		using EventFn = std::function<bool(T&)>;
 	public:
 		EventDispatcher(Event& event) : m_Event(event) {
-
 		}
 
 		template<typename T>
 		bool Dispatch(EventFn<T> func) {
-			if (m_Event.GetEventType() == T::GetStaticTyoe()) {
-				m_Event.m_Handled = func(*(T*)& m_Event);
+			if (m_Event.GetEventType() == T::GetStaticType()) {
+				m_Event.m_Handled = func(*(T*)&m_Event);
 				return true;
 			}
 			return false;

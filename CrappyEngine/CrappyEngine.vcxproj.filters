@@ -7,11 +7,11 @@
     <Filter Include="CrappyEngine\Events">
       <UniqueIdentifier>{2EA3B9BB-9A04-97C9-2372-DD7B8FD2CD88}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CrappyEngine\Platform">
-      <UniqueIdentifier>{e55ad836-1bc2-45e7-a359-a82e3ef8f74a}</UniqueIdentifier>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CrappyEngine\Platform\Windows">
-      <UniqueIdentifier>{96a70c12-c2ea-4405-9e51-ed1d6b654d5a}</UniqueIdentifier>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -40,13 +40,13 @@
     <ClInclude Include="src\CrappyEngine\Log.h">
       <Filter>CrappyEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\cepch.h" />
-    <ClInclude Include="Window.h">
+    <ClInclude Include="src\CrappyEngine\Window.h">
       <Filter>CrappyEngine</Filter>
     </ClInclude>
-    <ClInclude Include="WindowsWindow.h">
-      <Filter>CrappyEngine\Platform\Windows</Filter>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
     </ClInclude>
+    <ClInclude Include="src\cepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CrappyEngine\Application.cpp">
@@ -55,9 +55,9 @@
     <ClCompile Include="src\CrappyEngine\Log.cpp">
       <Filter>CrappyEngine</Filter>
     </ClCompile>
-    <ClCompile Include="src\cepch.cpp" />
-    <ClCompile Include="WindowsWindow.cpp">
-      <Filter>CrappyEngine\Platform\Windows</Filter>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
     </ClCompile>
+    <ClCompile Include="src\cepch.cpp" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
 namespace CrappyEngine {
 	class CRAPPYENGINE_API MouseMovedEvent : public Event {
 	public:
-		MouseMovedEvent(float y, float y) : m_MouseX(x), m_MouseY(y) {}
+		MouseMovedEvent(float x, float y) : m_MouseX(x), m_MouseY(y) {}
 
 		inline float GetX() const { return m_MouseX; }
 		inline float GetY() const { return m_MouseY; }
@@ -19,7 +19,7 @@ namespace CrappyEngine {
 		EVENT_CLASS_TYPE(MouseMoved)
 		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
 	private:
-		float m_MouseY, m_MouseY;
+		float m_MouseX, m_MouseY;
 	};
 
 	class CRAPPYENGINE_API MouseScrolledEvent : public Event {
@@ -52,7 +52,7 @@ namespace CrappyEngine {
 		int m_Button;
 	};
 
-	class CRAPPYENGINE_API MouseButtonPressedEvent : public Event {
+	class CRAPPYENGINE_API MouseButtonPressedEvent : public MouseButtonEvent {
 	public:
 		MouseButtonPressedEvent(int button) : MouseButtonEvent(button) {}
 
@@ -65,7 +65,7 @@ namespace CrappyEngine {
 		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
-	class CRAPPYENGINE_API MouseButtonReleasedEvent : public Event {
+	class CRAPPYENGINE_API MouseButtonReleasedEvent : public MouseButtonEvent {
 	public:
 		MouseButtonReleasedEvent(int button) : MouseButtonEvent(button) {}
 

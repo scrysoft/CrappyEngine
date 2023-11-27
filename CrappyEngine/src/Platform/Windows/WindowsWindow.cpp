@@ -45,7 +45,7 @@ namespace CrappyEngine {
 		SetVSync(true);
 
 		// Set GLFW callbacks
-		glfwSetWindowSizeCallback(m_Window, [](GLFWindow* window, int width, int height) {
+		glfwSetWindowSizeCallback(m_Window, [](GLFWwindow* window, int width, int height) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 			data.Width = width;
 			data.Height = height;
@@ -54,13 +54,13 @@ namespace CrappyEngine {
 			data.EventCallback(event);
 		});
 
-		glfwSetWindowCloseCallback(m_Window, []GLFWindow * window) {
+		glfwSetWindowCloseCallback(m_Window, [](GLFWwindow* window) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 			WindowCloseEvent event;
 			data.EventCallback(event);
 		});
 
-		glfwSetKeyCallback(m_Window, [](GLFWindow* window, int key, int scancode, int action, int mods) {
+		glfwSetKeyCallback(m_Window, [](GLFWwindow* window, int key, int scancode, int action, int mods) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 
 			switch (action) {
@@ -85,13 +85,13 @@ namespace CrappyEngine {
 			}
 		});
 
-		glfwSetMouseCallback(m_Window, [](GLFWindow* window, int button, int action, int mods) {
+		glfwSetMouseButtonCallback(m_Window, [](GLFWwindow* window, int button, int action, int mods) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 
 			switch (action) {
 				case GLFW_PRESS:
 				{
-					MouseButtonPressedEvent event(button, 0);
+					MouseButtonPressedEvent event(button);
 					data.EventCallback(event);
 					break;
 				}
@@ -104,14 +104,14 @@ namespace CrappyEngine {
 			}
 		});
 
-		glfwSetScrollCallback(m_Window, [](GLFWindow* window, double xOffset, double yOffset) {
+		glfwSetScrollCallback(m_Window, [](GLFWwindow* window, double xOffset, double yOffset) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 
 			MouseScrolledEvent event((float)xOffset, (float)yOffset);
 			data.EventCallback(event);
 		});
 
-		glfwSetCursorPosCallback(m_Window, [](GLFWindow* window, double xPos, double yPos) {
+		glfwSetCursorPosCallback(m_Window, [](GLFWwindow* window, double xPos, double yPos) {
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
 
 			MouseMovedEvent event((float)xPos, (float)yPos);
