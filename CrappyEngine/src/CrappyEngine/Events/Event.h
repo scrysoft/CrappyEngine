@@ -1,5 +1,6 @@
 #pragma once
 
+#include "cepch.h"
 #include "CrappyEngine/Core.h"
 
 namespace CrappyEngine {
